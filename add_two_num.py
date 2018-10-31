@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
@@ -52,3 +55,5 @@ if __name__ == '__main__':
     l6.next = l7
     s = Solution()
     s.addTwoNumbers(l2, l5)
+
+# vim: set expandtab ts=4 sts=4 sw=4 :
